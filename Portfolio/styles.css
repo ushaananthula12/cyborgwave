@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #090e42;
+    color: #ffffff;
+}
+
+header {
+    background-color: #090e42;
+    padding: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#home {
+    background-color: #03a9f4;
+    color: white;
+    padding: 20rem 0;
+    font-size: large;
+}
+
+
+
+#skills .skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0;
+}
+
+.skill {
+    background-color: rgb(161, 175, 200);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project {
+    width: calc(50% - 1rem); /* Adjust width based on the gap */
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid #910909;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgb(161, 175, 200);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+.project p {
+    color: #000000;
+}
+
+
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.contact-card h3 {
+    margin-bottom: 1rem;
+    color: #ff5722;
+}
+
+.contact-card a {
+    color: #03a9f4;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 3rem;
+}
+
+.social-media h3 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.social-media a {
+    margin: 0 1rem;
+    color: #ddfe82;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    margin: 0;
+}
